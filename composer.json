@@ -10,7 +10,9 @@
         }
     ],
     "minimum-stability": "dev",
-    "require": {},
+    "require": {
+        "rny/slugutf8": "^1.0"
+    },
     "autoload": {
         "psr-4": {
             "Samkhdev\\Contact\\":"src/"
