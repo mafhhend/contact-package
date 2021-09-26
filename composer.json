@@ -1,28 +1,28 @@
 {
-    "name": "samkhdev/contact",
-    "description": "Send Email to Admin and save contact query in DB",
-    "type": "library",
-    "license": "MIT",
-    "authors": [
-        {
-            "name": "samankhdev",
-            "email": "samkh.dev@yahoo.com"
-        }
-    ],
-    "minimum-stability": "dev",
-    "require": {
-        "rny/slugutf8": "^1.0"
-    },
-    "autoload": {
-        "psr-4": {
-            "Samkhdev\\Contact\\":"src/"
-        }
-    },
-    "extra": {
-        "laravel":{
-            "providers":[
-                "Samkhdev\\Contact\\ContactServiceProvider"
-            ]
-        }
+  "name": "samkhdev/contact",
+  "description": "Send Email to Admin and save contact query in DB",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "samankhdev",
+      "email": "samkh.dev@yahoo.com"
     }
+  ],
+  "minimum-stability": "dev",
+  "require": {
+    "rny/slugutf8": "^1.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Samkhdev\\Contact\\": "src/"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Samkhdev\\Contact\\ContactServiceProvider"
+      ]
+    }
+  }
 }
