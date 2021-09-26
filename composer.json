@@ -21,7 +21,7 @@
     "extra": {
         "laravel":{
             "providers":[
-                "Samkhdev\\Contact\\Providers\\ContactServiceProvider"
+                "Samkhdev\\Contact\\ContactServiceProvider"
             ]
         }
     }
