@@ -21,7 +21,7 @@
     "extra": {
         "laravel":{
             "providers":[
-                "Samkhdev/Contact/ContactServiceProvider"
+                "Samkhdev\\Contact\\Providers\\CustomAuthServiceProvider"
             ]
         }
     }
