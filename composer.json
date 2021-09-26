@@ -18,15 +18,10 @@
       "Samkhdev\\Contact\\": "src/"
     }
   },
-  "autoload-dev": {
-    "psr-4": {
-        "Samkhdev\\Contact\\": "src/"
-      }
-},
   "extra": {
     "laravel": {
       "providers": [
-        "Samkhdev\\Contact\\ContactServiceProvider"
+        "Samkhdev\\ContactServiceProvider"
       ]
     }
   }
